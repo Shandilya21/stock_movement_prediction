@@ -54,3 +54,4 @@ In this repository, i introduces the fundamental analysis of the stock market. D
  
       We here performed the Fundamental analysis and lookinf forward for multiple stock price prediction using 
       sophisticated algorithms.
+	  

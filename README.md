@@ -6,13 +6,13 @@ Among the top portfolio, Apple Inc is one of the highest bid stock, there share 
 In this repository, i introduces the fundamental analysis of the stock market. Dataset is collected fro NYSE :{ New York Stock Exchanges }, for last 6 months and consists of majors columns such as :
 
 
-    * Open: The opening price is the price at which a security first trades upon the opening of an exchange on a trading day   
-    for example, the New York Stock Exchange (NYSE) opens at precisely 9:30 a.m. Eastern time. The price of the first trade 
-    for any listed stock is its daily opening price. 
+    * Open: The opening price is the price at which a security first trades upon the opening of an exchange on a trading 
+    day for example, the New York Stock Exchange (NYSE) opens at precisely 9:30 a.m. Eastern time. The price of the first  
+    trade for any listed stock is its daily opening price. 
     
-    * Close: The close is the end of a trading session in the financial markets when the markets close. It can also refer to   
-    the process of exiting a trade or the final procedure in a financial transaction in which contract documents are signed  
-    and recorded.
+    * Close: The close is the end of a trading session in the financial markets when the markets close. It can also refer 
+    to the process of exiting a trade or the final procedure in a financial transaction in which contract documents are 
+    signed and recorded.
     
     * High: Today's high is the highest price at which a stock traded during the course of the trading day. Today's high is 
     typically higher than the closing or opening price. More often than not this is higher than the closing price.
@@ -46,4 +46,11 @@ In this repository, i introduces the fundamental analysis of the stock market. D
     5. matplotlib
     6. Scikit-learn
 
-
+# Run
+ 1. pip install <requirement>
+ 2. Download <.csv> file
+ 3. save/to/dir and add the preprocess.py for preprocessing task
+ 4. finally run the stock_prediction.py 
+ 
+      We here performed the Fundamental analysis and lookinf forward for multiple stock price prediction using 
+      sophisticated algorithms.

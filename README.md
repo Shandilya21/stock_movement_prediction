@@ -47,11 +47,11 @@ In this repository, i introduces the fundamental analysis of the stock market. D
     6. Scikit-learn
 
 # Run
- 1. pip install <requirement>
- 2. Download <.csv> file
- 3. save/to/dir and add the preprocess.py for preprocessing task
+ 1. pip install file/library from requirement section.
+ 2. Download data from NYSE for last 1 year/6 months, save in data {in csv} format.
+ 3. save/to/dir and add the preprocess.py for preprocessing task, set the path and run this script
  4. finally run the stock_prediction.py 
+ 5. * Note you can also try with other stock options {for more details, please write me at arunavshandilya96@gmail.com}  
  
-      We here performed the Fundamental analysis and lookinf forward for multiple stock price prediction using 
-      sophisticated algorithms.
+	We here performed the Fundamental analysis and looking forward for multiple stock price prediction using 	sophisticated machine learning algorithms.
 	  

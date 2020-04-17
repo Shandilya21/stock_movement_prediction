@@ -17,12 +17,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
 
@@ -69,7 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+<!-- [![Product Name Screen Shot][product-screenshot]] -->
 This is a implementation of stock price movement considering the basic and fundamental analysis of stock market. Here, We consider Apple Inc. (APPL:NYSE) quarterly stock price to train our machine learning algorithms. The predicted value is close to the final actual price and hence it will also be reciprocated for more 'stocks', for eg: Microsoft (MSFT: NYSE), Google (GOOG,: NYSE) etc.   
 
 Here's why:
@@ -186,7 +186,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+<!-- [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
 [forks-url]: https://github.com/Shandilya21/stock_movement_prediction/network/members
@@ -199,3 +199,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: plot/predicted_stock_price.png
+ -->

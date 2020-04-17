@@ -82,7 +82,7 @@ why we need this?:
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Python](https://www.python.org/)
-* [Keras Backened TF](https://keras.io/)
+* [Keras](https://keras.io/)
 * [Scikit-Learn](https://scikit-learn.org/)
 
 
@@ -117,6 +117,21 @@ python3 Stockprediction.py
     <img src="plot/predicted_stock_price.png" alt="Logo" width="500" height="500">
   </a>
 
+After epoch @5
+```
+Train RMSE: 1.78
+Test RMSE: 2.99
+Last Day Value: 166.8632354736328
+Next Day Value: 176.5559539794922
+```
+
+After epoch @20
+```
+Train RMSE: 1.24
+Test RMSE: 1.39
+Last Day Value: 158.89990234375
+Next Day Value: 157.1401824951172
+```
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -143,7 +158,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/shandilyaarunav?lang=en) - arunavshandilya96@gmail.com
+Your Name - [@ShandilyaArunav](https://twitter.com/shandilyaarunav?lang=en) - arunavshandilya96@gmail.com
 
 <!-- Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name) -->
 

@@ -29,8 +29,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Shandilya21/stock_movement_prediction">
+    <img src="plot/Plot_stock.png" alt="Logo" width="50" height="55">
   </a>
 
   <h3 align="center">Predictive Model for Stock Price Movement</h3>

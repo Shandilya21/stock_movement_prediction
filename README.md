@@ -30,7 +30,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Shandilya21/stock_movement_prediction">
-    <img src="plot/Plot_stock.png" alt="Logo" width="200" height="200">
+    <img src="plot/Plot_stock.png" alt="Logo" width="350" height="350">
   </a>
 
   <h3 align="center">Predictive Model for Stock Price Movement</h3>
@@ -72,101 +72,84 @@
 <!-- [![Product Name Screen Shot][product-screenshot]] -->
 This is a implementation of stock price movement considering the basic and fundamental analysis of stock market. Here, We consider Apple Inc. (APPL:NYSE) quarterly stock price to train our machine learning algorithms. The predicted value is close to the final actual price and hence it will also be reciprocated for more 'stocks', for eg: Microsoft (MSFT: NYSE), Google (GOOG,: NYSE) etc.   
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Taking a deep dive interest in stock and market price movement, it is almost difficult for trader to predict to study the market analysis for studyong the important factors. Here we incorporated a end to end LSTM (Long Short Term Memory Network) algorithms to predict the price movement for refernce stock. Also it can compareable with multiple stocks before making an decision.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+why we need this?:
+* Anyone can effectively save money or 'bad bid' by visualizing stock trend. 
+* Brokerage fees would be saved! Anyone with basic utility can make suitable decision
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
+* [Python](https://www.python.org/)
+* [Keras Backened TF](https://keras.io/)
+* [Scikit-Learn](https://scikit-learn.org/)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
+Below the the basic step to reproduce the code with few commands.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1. Clone the repository
+```
+git clone https://github.com/Shandilya21/stock_movement_prediction.git
+
+```
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
 ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
+pip install -r requirement.txt
 ```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The code is working for Apple Inc. srock price, Also you can produce results for other sock prices and amake a comparable plot. The default number of epochs = 5. Feel free to set the epochs from Stockprediction.py. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```
+python3 Stockprediction.py   
+```
+## Results
 
-
+<br />
+<p align="center">
+  <a href="https://github.com/Shandilya21/stock_movement_prediction">
+    <img src="plot/predicted_stock_price.png" alt="Logo" width="500" height="500">
+  </a>
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
+See the [open issues](https://github.com/Shandilya21/stock_movement_prediction/issues) for a list of proposed features (and known issues). Also, if you have any issue, feel free to open a new issue.
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the project such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git build -b build/newfeature`)
+3. Commit your Changes (`git commit -m 'Add some newfeature'`)
+4. Push to the Branch (`git push origin build/newfeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
-## License
+<!-- ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
+ -->
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@your_twitter](https://twitter.com/shandilyaarunav?lang=en) - arunavshandilya96@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+<!-- Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name) -->
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
+<!-- ACKNOWLEDGEMENTS
 ## Acknowledgements
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
@@ -179,7 +162,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Sticky Kit](http://leafo.net/sticky-kit)
 * [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
-
+ -->
 
 
 

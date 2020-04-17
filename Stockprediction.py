@@ -10,9 +10,9 @@ from keras.layers import Dense, Activation
 from keras.layers import LSTM
 import preprocessing 
 
-# FOR REPRODUCIBILITY
-np.random.seed(7)
 
+np.random.seed(7)
+	
 # IMPORTING DATASET 
 dataset = pd.read_csv('apple_share_price.csv', usecols=[1,2,3,4])
 dataset = dataset.reindex(index = dataset.index[::-1])
@@ -60,7 +60,7 @@ model.add(Activation('linear'))
 
 # MODEL COMPILING AND TRAINING
 model.compile(loss='mean_squared_error', optimizer='adagrad') # Try SGD, adam, adagrad and compare!!!
-model.fit(trainX, trainY, epochs=5, batch_size=1, verbose=2)
+model.fit(trainX, trainY, epochs=5, batch_size=1, verbose=1)
 
 # PREDICTION
 trainPredict = model.predict(trainX)
@@ -107,6 +107,6 @@ plt.show()
 last_val = testPredict[-1]
 last_val_scaled = last_val/last_val
 next_val = model.predict(np.reshape(last_val_scaled, (1,1,1)))
-print "Last Day Value:", np.asscalar(last_val)
-print "Next Day Value:", np.asscalar(last_val*next_val)
+print("Last Day Value:", np.asscalar(last_val))
+print("Next Day Value:", np.asscalar(last_val*next_val))
 # print np.append(last_val, next_val

@@ -1,57 +1,201 @@
-# Intraday-NYSE-Stock-Prediction-
-NYSE: Stock Price Prediction using Machine Learning Techniques:
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-Among the top portfolio, Apple Inc is one of the highest bid stock, there share price is increasing beyond the point of termination. Applied Statistician and Trader finds difficult to handles these non-linearity function which make to push down the monthly trading target. they applies some state of the art statistical techniques to predict bids. Here is one of the state of the art machine learning model that will help trader to get it target bid across the market in a day.
-
-In this repository, i introduces the fundamental analysis of the stock market. Dataset is collected fro NYSE :{ New York Stock Exchanges }, for last 6 months and consists of majors columns such as :
 
 
-    * Open: The opening price is the price at which a security first trades upon the opening of an exchange on a trading 
-    day for example, the New York Stock Exchange (NYSE) opens at precisely 9:30 a.m. Eastern time. The price of the first  
-    trade for any listed stock is its daily opening price. 
-    
-    * Close: The close is the end of a trading session in the financial markets when the markets close. It can also refer 
-    to the process of exiting a trade or the final procedure in a financial transaction in which contract documents are 
-    signed and recorded.
-    
-    * High: Today's high is the highest price at which a stock traded during the course of the trading day. Today's high is 
-    typically higher than the closing or opening price. More often than not this is higher than the closing price.
-    
-    * Low: A 52-week high/low is the highest and lowest price at which a stock has traded during the previous year. It is a    
-    technical indicator used by some traders and investors who view the 52-week high or low as an important factor in 
-    determining a stock's current value and predicting future price movement.
-    
-    * Volume: In capital markets, volume, or trading volume, is the amount of a security that was traded during a given  
-    period of time. In the context of a single stock trading on a stock exchange, the volume is commonly reported as the 
-    number of shares that changed hands during a given day.
-    
-    
-# Dataset: 
-    NYSE: New York Stock Exchange
-    Stock: Apple Inc.
-    
-<img src = "https://github.com/Shandilya21/Intraday-NYSE-Stock-Prediction-/blob/master/knowledge_graph_logo.png" width = "120" img align = "middle">
 
-# Parameters
-    1. Fundamental Analysis
-    2. Technical Analysis
-    3. Correlation_ Matrix
-    4. Market Sentiments
 
-# Requirement
-    1. Python >3.0
-    2. Keras
-    3. numpy
-    4. pandas
-    5. matplotlib
-    6. Scikit-learn
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-# Run
- 1. pip install file/library from requirement section.
- 2. Download data from NYSE for last 1 year/6 months, save in data {in csv} format.
- 3. save/to/dir and add the preprocess.py for preprocessing task, set the path and run this script
- 4. finally run the stock_prediction.py 
- 5. * Note you can also try with other stock options {for more details, please write me at arunavshandilya96@gmail.com}  
- 
-	We here performed the Fundamental analysis and looking forward for multiple stock price prediction using 	sophisticated machine learning algorithms.
-	  
+
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Predictive Model for Stock Price Movement</h3>
+<!-- 
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</p>
+
+ -->
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [Contact](#contact)
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]]
+This is a implementation of stock price movement considering the basic and fundamental analysis of stock market. Here, We consider Apple Inc. (APPL:NYSE) quarterly stock price to train our machine learning algorithms. The predicted value is close to the final actual price and hence it will also be reciprocated for more 'stocks', for eg: Microsoft (MSFT: NYSE), Google (GOOG,: NYSE) etc.   
+
+Here's why:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should element DRY principles to the rest of your life :smile:
+
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
+
+### Built With
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [Bootstrap](https://getbootstrap.com)
+* [JQuery](https://jquery.com)
+* [Laravel](https://laravel.com)
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+```sh
+npm install npm@latest -g
+```
+
+### Installation
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+```sh
+git clone https://github.com/your_username_/Project-Name.git
+```
+3. Install NPM packages
+```sh
+npm install
+```
+4. Enter your API in `config.js`
+```JS
+const API_KEY = 'ENTER YOUR API';
+```
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Img Shields](https://shields.io)
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Pages](https://pages.github.com)
+* [Animate.css](https://daneden.github.io/animate.css)
+* [Loaders.css](https://connoratherton.com/loaders)
+* [Slick Carousel](https://kenwheeler.github.io/slick)
+* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+* [Sticky Kit](http://leafo.net/sticky-kit)
+* [JVectorMap](http://jvectormap.com)
+* [Font Awesome](https://fontawesome.com)
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: plot/predicted_stock_price.png

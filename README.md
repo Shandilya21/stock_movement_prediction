@@ -5,10 +5,6 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -64,17 +60,15 @@
 * [Contributing](#contributing)
 * [Contact](#contact)
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]] -->
-This is a implementation of stock price movement considering the basic and fundamental analysis of stock market. Here, We consider Apple Inc. (APPL:NYSE) quarterly stock price to train our machine learning algorithms. The predicted value is close to the final actual price and hence it will also be reciprocated for more 'stocks', for eg: Microsoft (MSFT: NYSE), Google (GOOG,: NYSE) etc.   
+This is a implementation of stock price movement considering the basic and fundamental analysis of stock market. Here, We consider Apple Inc. (APPL:NYSE) quarterly stock price to train our machine learning algorithms. The predicted value is close to the actual market price and hence it will also be useful even for more 'stocks', for eg: Microsoft (MSFT: NYSE), Google (GOOG,: NYSE) etc.   
 
-Taking a deep dive interest in stock and market price movement, it is almost difficult for trader to predict to study the market analysis for studyong the important factors. Here we incorporated a end to end LSTM (Long Short Term Memory Network) algorithms to predict the price movement for refernce stock. Also it can compareable with multiple stocks before making an decision.
+Taking a deep dive interest in stock and market price movement, it is almost difficult for trader to study the market analysis for studying the important factors. Here we incorporated a end to end LSTM (Long Short Term Memory Network) algorithms to predict the price movement for refernce stock. Also it can compareable with multiple stocks before making an decision.
 
-why we need this?:
+Why we need this?
 * Anyone can effectively save money or 'bad bid' by visualizing stock trend. 
 * Brokerage fees would be saved! Anyone with basic utility can make suitable decision
 
@@ -92,7 +86,6 @@ Below the the basic step to reproduce the code with few commands.
 1. Clone the repository
 ```
 git clone https://github.com/Shandilya21/stock_movement_prediction.git
-
 ```
 
 ### Prerequisites
@@ -177,8 +170,6 @@ Your Name - [@ShandilyaArunav](https://twitter.com/shandilyaarunav?lang=en) - ar
 * [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
  -->
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

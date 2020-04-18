@@ -60,7 +60,7 @@ model.add(Activation('linear'))
 
 # MODEL COMPILING AND TRAINING
 model.compile(loss='mean_squared_error', optimizer='adagrad') # Try SGD, adam, adagrad and compare!!!
-model.fit(trainX, trainY, epochs=5, batch_size=1, verbose=1)
+model.fit(trainX, trainY, epochs=20, batch_size=1, verbose=1)
 
 # PREDICTION
 trainPredict = model.predict(trainX)

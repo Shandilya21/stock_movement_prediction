@@ -125,14 +125,14 @@ Last Day Value: 158.89990234375
 Next Day Value: 157.1401824951172
 ```
 
-### Stock Prediction with Technical Analysis:
+### Stock Prediction with Technical Analysis
 
-Technical Analysis: The study and use of price and volume charts and other technical indicators to make trading decisions. Technical analysis attempts to use past stock price and volume information to predict future price movements. Fundamentally, technical analysis shows in graphic form investor sentiment, both greed and fear. Understanding that concept is key to understanding technical analysis and being able to use it effectively to trade securities. With proper technical analysis, you can be ready for certain moves, and when your analysis is confirmed by the actual start of the move, trading positions can be taken. Technical analysis can be used for short-term trading or long-term position buying.
+**Technical Analysis**: The study and use of price and volume charts and other technical indicators to make trading decisions. Technical analysis attempts to use past stock price and volume information to predict future price movements. Fundamentally, technical analysis shows in graphic form investor sentiment, both greed and fear. Understanding that concept is key to understanding technical analysis and being able to use it effectively to trade securities. With proper technical analysis, you can be ready for certain moves, and when your analysis is confirmed by the actual start of the move, trading positions can be taken. Technical analysis can be used for short-term trading or long-term position buying.
 
-DataSet:
-Data can be downloaded from the kaggle [Data](https://www.kaggle.com/dgawlik/nyse). Create and place the data inside the data folder.
+**Dataset**:
+Data can be downloaded from the kaggle [(Data)](https://www.kaggle.com/dgawlik/nyse). Create and place the data inside the data folder.
 
-Technical Indicators: There are list many technical indicators for several purpose, here we used mainly three types of Technical analysis to predict the next day stock prices. We have 501 stocks listed from NYSE dataset,(refer the dataset). The prototype work for all the stock names listed in the data.
+**Technical Indicators**: There are list many technical indicators for several purpose, here we used mainly three types of Technical analysis to predict the next day stock prices. We have 501 stocks listed from NYSE dataset,(refer the dataset). The prototype work for all the stock names listed in the data.
 
 The Technical Indicators are:
 * [Relative Strength Index (RSI)](https://www.investopedia.com/terms/r/rsi.asp): The relative strength index (RSI) is a momentum indicator used in technical analysis that measures the magnitude of recent price changes to evaluate overbought or oversold conditions in the price of a stock or other asset. The RSI is displayed as an oscillator (a line graph that moves between two extremes) and can have a reading from 0 to 100.

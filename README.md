@@ -69,8 +69,7 @@ This is a implementation of stock price movement considering the basic and funda
 Taking a deep dive interest in stock and market price movement, it is almost difficult for trader to study the market analysis for studying the important factors. Here we incorporated a end to end LSTM (Long Short Term Memory Network) algorithms to predict the price movement for refernce stock. Also it can compareable with multiple stocks before making an decision.
 
 Why we need this?
-* Anyone can effectively save money or 'bad bid' by visualizing stock trend. 
-* Brokerage fees would be saved! Anyone with basic utility can make suitable decision
+* Stock market prediction is the act of trying to determine the future value of a company stock or other financial instrument traded on a financial exchange. The successful prediction of a stock's future price will maximize investor's gains.
 
 
 ### Built With

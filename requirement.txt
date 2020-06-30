@@ -1,6 +1,8 @@
 keras==2.2.4       
 keras-applications==1.0.8       
-keras-Preprocessing==1.0.9 
+keras-Preprocessing==1.0.9
+tensorflow==1.14
+seaborn==0.9.1 
 numpy>=1.14.0
 pandas==0.16.1
 matplotlib==3.0.3

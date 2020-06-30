@@ -96,7 +96,7 @@ pip install -r requirement.txt
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The code is working for Apple Inc. srock price, Also you can produce results for other sock prices and amake a comparable plot. The default number of epochs = 5. Feel free to set the epochs from Stockprediction.py. 
+The code is working for Apple Inc. stock price, Also you can produce results for other sock prices and amake a comparable plot. The default number of epochs = 5. Feel free to set the epochs from Stockprediction.py. 
 
 ```
 python3 Stockprediction.py   
@@ -124,6 +124,40 @@ Test RMSE: 1.39
 Last Day Value: 158.89990234375
 Next Day Value: 157.1401824951172
 ```
+
+### Stock Prediction with Technical Analysis:
+
+Technical Analysis: The study and use of price and volume charts and other technical indicators to make trading decisions. Technical analysis attempts to use past stock price and volume information to predict future price movements. Fundamentally, technical analysis shows in graphic form investor sentiment, both greed and fear. Understanding that concept is key to understanding technical analysis and being able to use it effectively to trade securities. With proper technical analysis, you can be ready for certain moves, and when your analysis is confirmed by the actual start of the move, trading positions can be taken. Technical analysis can be used for short-term trading or long-term position buying.
+
+DataSet:
+Data can be downloaded from the kaggle [Data](https://www.kaggle.com/dgawlik/nyse). Create and place the data inside the data folder.
+
+Technical Indicators: There are list many technical indicators for several purpose, here we used mainly three types of Technical analysis to predict the next day stock prices. We have 501 stocks listed from NYSE dataset,(refer the dataset). The prototype work for all the stock names listed in the data.
+
+The Technical Indicators are:
+* [Relative Strength Index (RSI)](https://www.investopedia.com/terms/r/rsi.asp): The relative strength index (RSI) is a momentum indicator used in technical analysis that measures the magnitude of recent price changes to evaluate overbought or oversold conditions in the price of a stock or other asset. The RSI is displayed as an oscillator (a line graph that moves between two extremes) and can have a reading from 0 to 100.
+
+* [Stochastic Oscillator](https://www.investopedia.com/terms/s/stochasticoscillator.asp#:~:text=A%20stochastic%20oscillator%20is%20a,moving%20average%20of%20the%20result): A stochastic oscillator is a momentum indicator comparing a particular closing price of a security to a range of its prices over a certain period of time. The sensitivity of the oscillator to market movements is reducible by adjusting that time period or by taking a moving average of the result. It is used to generate overbought and oversold trading signals, utilizing a 0-100 bounded range of values. 
+
+* [Simple Moving Average (SMA)](https://www.investopedia.com/terms/s/sma.asp#:~:text=Key%20Takeaways-,A%20simple%20moving%20average%20(SMA)%20calculates%20the%20average%20of%20a,a%20bull%20or%20bear%20trend.): A simple moving average (SMA) calculates the average of a selected range of prices, usually closing prices, by the number of periods in that range 
+
+The code is working for all the stock names listed in the data, Also you can produce results for other sock prices and amake a comparable plot. The default number of epochs = 5. Feel free to set the epochs from ```StockPreds_withtechnical.py```.
+
+#### Run Experiements
+Before performing experiments, SET the config for the data path. In ```config.py``` Change the **DATA_PATH** to your data path location.
+
+You can now perform the experiments and calculate the future prices for any stock name you want. refer the complete chart of stocks in ```data/price.csv.```
+```
+python StockPreds_withtechnical.py --stock_name GOOG --use_ta --indicator Stoch --epoch 5 (Stochastic Indicator)
+python StockPreds_withtechnical.py --stock_name GOOG --use_ta --indicator RSI --epoch 5  (Relative Strength Index)
+python StockPreds_withtechnical.py --stock_name AAPL --load_all --epoch 5  (SMA)
+```
+However,  I have prepared a shell script for testing. you can directly use this script to reproduce the results.
+```
+chmod +x run.sh
+./run.sh
+```
+
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -149,8 +183,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@ShandilyaArunav](https://twitter.com/shandilyaarunav?lang=en) - arunavshandilya96@gmail.com
+Arunav Shandilya - arunavshandilya96@gmail.com
 
 <!-- Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name) -->
 

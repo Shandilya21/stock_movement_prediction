@@ -1,3 +1,7 @@
+<a href="https://github.com/Shandilya21/stock_movement_prediction/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Shandilya21/stock_movement_prediction"></a>
+<a href="https://github.com/Shandilya21/stock_movement_prediction/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Shandilya21/stock_movement_prediction"></a>
+<a href="https://github.com/Shandilya21/stock_movement_prediction/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Shandilya21/stock_movement_prediction"></a>
+
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
 *** make this better, please fork the repo and create a pull request or simply open

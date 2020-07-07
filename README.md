@@ -165,7 +165,7 @@ chmod +x run.sh
 
 ### Results
 Here are few reported results related to few stocks with it's data chart
-![](https://github.com/Shandilya21/stock_movement_prediction/plot/results_new.png)
+![](https://github.com/Shandilya21/stock_movement_prediction/raw/master/images/plot/results_new.png)
 
 <!-- ROADMAP -->
 ## Roadmap

@@ -173,7 +173,7 @@ Here are few reported results related to few stocks with it's data chart
 See the [open issues](https://github.com/Shandilya21/stock_movement_prediction/issues) for a list of proposed features (and known issues). Also, if you have any issue, feel free to open a new issue.
 
 <!-- CONTRIBUTING -->
-## contributing
+## Contributing
 
 Contributions are very welcome. If you know how to make this code better, please open an issue. If you want to submit a pull request, please open an issue first.
 

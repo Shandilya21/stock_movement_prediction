@@ -144,7 +144,9 @@ The Technical Indicators are:
 
 * [Simple Moving Average (SMA)](https://www.investopedia.com/terms/s/sma.asp#:~:text=Key%20Takeaways-,A%20simple%20moving%20average%20(SMA)%20calculates%20the%20average%20of%20a,a%20bull%20or%20bear%20trend.): A simple moving average (SMA) calculates the average of a selected range of prices, usually closing prices, by the number of periods in that range 
 
-The code is working for all the stock names listed in the data, Also you can produce results for other sock prices and amake a comparable plot. The default number of epochs = 5. Feel free to set the epochs from ```StockPreds_withtechnical.py```.
+The code is working for all the stock names listed in the data, Also you can produce results for other sock prices and amake a comparable plot. The default number of epochs = 5. Feel free to set the epochs from ```StockPreds_withtechnical.py```. Below is a demo for the setup.
+
+![](https://github.com/Shandilya21/stock_movement_prediction/plot/run.gif)
 
 #### Run Experiements
 Before performing experiments, SET the config for the data path. In ```config.py``` Change the **DATA_PATH** to your data path location.
@@ -161,27 +163,34 @@ chmod +x run.sh
 ./run.sh
 ```
 
+### Results
+Here are few reported results related to few stocks with it's data chart
+![](https://github.com/Shandilya21/stock_movement_prediction/plot/results_new.png)
+
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/Shandilya21/stock_movement_prediction/issues) for a list of proposed features (and known issues). Also, if you have any issue, feel free to open a new issue.
 
 <!-- CONTRIBUTING -->
-## Contributing
+## contributing
 
-Contributions are what make the project such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are very welcome. If you know how to make this code better, please open an issue. If you want to submit a pull request, please open an issue first.
 
-1. Fork the Project
-2. Create your Feature Branch (`git build -b build/newfeature`)
-3. Commit your Changes (`git commit -m 'Add some newfeature'`)
-4. Push to the Branch (`git push origin build/newfeature`)
-5. Open a Pull Request
+### TODO
+* Add Fundamental Analysis.
+* Mark Snetiment in Stock Prediction.
+* Add Technical Indicators for better prediction.
+
+### References
+
+* Market Study from [Investopedia](https://www.investopedia.com/)
+* Data are scrapped from [NYSE](https://www.nyse.com/index)
+
 
 <!-- LICENSE -->
 <!-- ## License
-
 Distributed under the MIT License. See `LICENSE` for more information.
- -->
 
 
 <!-- CONTACT -->

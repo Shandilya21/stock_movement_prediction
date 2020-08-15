@@ -194,7 +194,7 @@ Contributions are very welcome. If you know how to make this code better, please
 
 
 <!-- LICENSE -->
-<!-- ## License
+<!-- ## License -->
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
